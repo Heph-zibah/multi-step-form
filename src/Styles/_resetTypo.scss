@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: $color-marine-blue;
+    font-size: 40px;
+}
+p {
+    color: $color-cool-gray;
+}
+button {
+    background-color: $color-marine-blue;
+    color: $color-white;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-radius: 3px;
+}
