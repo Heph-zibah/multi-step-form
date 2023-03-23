@@ -1,4 +1,5 @@
 import React from "react";
+import StepFive from "./components/StepFive";
 import StepFour from "./components/StepFour";
 import StepOne from "./components/StepOne";
 import StepThree from "./components/StepThree";
@@ -11,6 +12,7 @@ function App() {
       <StepTwo/>
       <StepThree/>
       <StepFour/>
+      <StepFive/>
     </div>
   );
 }
