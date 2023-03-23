@@ -13,6 +13,7 @@ function App() {
       <StepThree/>
       <StepFour/>
       <StepFive/>
+      <footer>Challenge by <a href="#">Frontend Mentor</a>. Coded by <a href="#">Oluwatosin A Daramola</a>.</footer>
     </div>
   );
 }
