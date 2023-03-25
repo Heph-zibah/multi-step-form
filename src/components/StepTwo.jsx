@@ -2,29 +2,30 @@ import React from 'react'
 import arcade from '../assets/images/icon-arcade.svg'
 import advanced from '../assets/images/icon-advanced.svg'
 import pro from '../assets/images/icon-pro.svg'
+import { header } from '../hooks/texts'
 
 const StepTwo = () => {
   return (
     <>
         <div className='steps__container'>  
-            <h1>Select your plan</h1>
-            <p>You have the option of monthly or yearly billing.</p>
-            <div>
-                <div>
+            <h1>{header[1].h1}</h1>
+            <p>{header[1].p}</p>
+            <div className='plans__section'>
+                <div className='plan__div'>
                     <img src={arcade} alt="icon" />
                     <div>
                         <strong>Arcade</strong>
                         <small>$9/mo</small>
                     </div>
                 </div>
-                <div>
+                <div  className='plan__div'>
                     <img src={advanced} alt="icon" />
                     <div>
                         <strong>Advanced</strong>
                         <small>$12/mo</small>
                     </div>
                 </div>
-                <div>
+                <div  className='plan__div'>
                     <img src={pro} alt="icon" />
                     <div>
                         <strong>Pro</strong>
@@ -36,15 +37,15 @@ const StepTwo = () => {
                 <strong>Monthly</strong>
                 <strong>Yearly</strong>
             </div>
-            <div className='steps__actions'>
-                <button>
+        </div>
+         <div className='steps__actions'>
+                <button className='btn__goBack'>
                     Go back
                 </button>
                 <button>
                     Next Step
                 </button>
             </div>
-        </div>
     </>
   )
 }
