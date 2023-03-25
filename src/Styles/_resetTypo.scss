@@ -77,3 +77,40 @@ footer {
         text-decoration: underline;
     }
 }
+
+@media screen and (min-width:1201px) {
+    body {
+            height: 100vh;
+            padding: 70px;
+        }
+    .container {
+        display: flex;
+        background-color: white;
+        max-width:800px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+        .steps__container {
+            background-color: white;
+            padding: 20px;
+            margin: 0;
+            position:static;
+            border-radius: none;
+    
+            h1 {
+                font-size: 35px;
+            }
+    
+            p {
+                font-size: 18px;
+                margin: 15px 0;
+            }
+        }
+        .steps__actions {
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            position: static;
+        }
+}
