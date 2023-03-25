@@ -56,6 +56,14 @@ a {
     width: 100%;
     bottom: 0;
     left: 0;
+    .btn__goBack {
+        background: transparent;
+        color: $color-cool-gray;
+        font-weight: 700;
+    }
+    .btn__goBack:hover {
+        color: $color-purplish-blue;
+    }
 }
 
 footer {
