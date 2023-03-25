@@ -3,7 +3,7 @@ import React from 'react'
 const StepThree = () => {
   return (
     <>
-        <div>
+        <div className='steps__container'>
             <h1>Pick add-ons</h1>
             <p>Add-ons help enhance your gaming experience.</p>
             <form action="">
@@ -32,7 +32,7 @@ const StepThree = () => {
                     <strong>+$2/mo</strong>
                 </div>
             </form>
-            <div>
+            <div className='steps__actions'>
                 <button>
                     Go back
                 </button>
