@@ -37,15 +37,16 @@ const StepTwo = () => {
                 <strong>Monthly</strong>
                 <strong>Yearly</strong>
             </div>
-        </div>
-         <div className='steps__actions'>
+             <div className='steps__actions'>
                 <button className='btn__goBack'>
                     Go back
                 </button>
                 <button>
                     Next Step
                 </button>
-            </div>
+        </div>
+        </div>
+        
     </>
   )
 }
