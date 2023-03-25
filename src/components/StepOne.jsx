@@ -18,7 +18,8 @@ const StepOne = () => {
         
     </div>
     <div className='steps__actions'>
-        <button className='formBtn--step--one'>Next Step</button>
+       <button  className='btn__goBack' style={{visibility:'hidden'}}> Go back</button>
+        <button className='btn__next'>Next Step</button>
     </div>
    </>
   )
