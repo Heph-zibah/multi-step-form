@@ -6,7 +6,7 @@ const Steps = () => {
     <>
     <aside>
         {informationsStep.map((step) => {
-            return <div className='steps__btn'>
+            return <div className='steps__btn' key={step.num}>
                 <button>{step.num}</button>
                 <div className='steps__btn--info'>
                     <p>step {step.num}</p>
