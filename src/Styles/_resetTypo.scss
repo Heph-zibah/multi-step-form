@@ -16,7 +16,7 @@ p {
 }
 button {
     background-color: $color-marine-blue;
-    color: $color-white;
+    color: $color-alabaster;
     border: 0;
     outline: 0;
     padding: 10px;
@@ -44,5 +44,27 @@ a {
     p {
         font-size: 18px;
         margin: 15px 0;
+    }
+}
+
+.steps__actions {
+    background-color: white;
+    display: flex;
+    padding: 20px ;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    a {
+        color: $color-marine-blue;
+        font-weight: 700;
+    }
+    a:hover {
+        text-decoration: underline;
     }
 }
