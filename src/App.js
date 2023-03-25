@@ -10,16 +10,18 @@ import Error from './components/Error'
 
 function App() {
   return (
-    <div className="">
-      <Steps/>
-      <Routes>
-        <Route path="/" element={<StepOne/>}/>
-        <Route path="*" element={<Error/>}/>
-        <Route path="/steptwo" element={<StepTwo/>}/>
-        <Route path="/stepthree" element={<StepThree/>}/>
-        <Route path="/stepfour" element={<StepFour/>}/>
-        <Route path="/stepfive" element={<StepFive/>}/>
-      </Routes>
+    <div >
+     <main className="container">
+       <Steps/>
+        <Routes>
+          <Route path="/" element={<StepOne/>}/>
+          <Route path="*" element={<Error/>}/>
+          <Route path="/steptwo" element={<StepTwo/>}/>
+          <Route path="/stepthree" element={<StepThree/>}/>
+          <Route path="/stepfour" element={<StepFour/>}/>
+          <Route path="/stepfive" element={<StepFive/>}/>
+        </Routes>
+     </main>
       <footer>Challenge by <Link to="#">Frontend Mentor</Link>. Coded by <Link to="#">Oluwatosin A Daramola</Link>.</footer>
     </div>
   );
