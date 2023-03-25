@@ -8,12 +8,8 @@ const StepFour = () => {
             <p>Double-check everything looks OK before confirming.</p>
             <strong>Total (per month/year)</strong>
             <div className='steps__actions'>
-                <button>
-                    Go back
-                </button>
-                <button>
-                    Confirm
-                </button>
+                <button  className='btn__goBack' style={{visibility:'hidden'}}> Go back</button>
+                <button>Confirm</button>
             </div>
         </div>
     </>
