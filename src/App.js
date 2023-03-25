@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import StepFive from "./components/StepFive";
 import StepFour from "./components/StepFour";
 import StepOne from "./components/StepOne";
@@ -20,7 +20,7 @@ function App() {
         <Route path="/stepfour" element={<StepFour/>}/>
         <Route path="/stepfive" element={<StepFive/>}/>
       </Routes>
-      <footer>Challenge by <a href="#">Frontend Mentor</a>. Coded by <a href="#">Oluwatosin A Daramola</a>.</footer>
+      <footer>Challenge by <Link to="#">Frontend Mentor</Link>. Coded by <Link to="#">Oluwatosin A Daramola</Link>.</footer>
     </div>
   );
 }
