@@ -15,12 +15,12 @@ const StepOne = () => {
                 <label htmlFor="phoneNumber">Phone Number</label>
                 <input type="text" placeholder='e.g. +1 234 567 890'/>
         </form>
-        
-    </div>
-    <div className='steps__actions'>
+        <div className='steps__actions'>
        <button  className='btn__goBack' style={{visibility:'hidden'}}> Go back</button>
         <button className='btn__next'>Next Step</button>
     </div>
+    </div>
+    
    </>
   )
 }
