@@ -33,7 +33,7 @@ const StepThree = () => {
                 </div>
             </form>
             <div className='steps__actions'>
-                <button>
+                <button  className='btn__goBack'>
                     Go back
                 </button>
                 <button>
