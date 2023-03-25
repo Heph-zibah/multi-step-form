@@ -1,5 +1,5 @@
-export function texts() {
-    const header = [
+
+export const header = [
         
         {
             h1: 'Personal info',
@@ -23,7 +23,7 @@ export function texts() {
         }
     ]
 
-     const arrayInformationsStep = [
+     export const informationsStep = [
         {
             num: 1,
             name: 'your info'
@@ -42,20 +42,13 @@ export function texts() {
         }
     ]
 
-    const plans = {
+    export const plans = {
         monthly: [9, 12, 15],
         yearly: [90, 120, 150]
     }
 
-    const services = {
+  export  const services = {
         monthly: [1, 2, 2],
         yearly: [10, 20, 20]
     }
 
-    return {
-        headerText: headerText,
-        arrayInformationsStep: arrayInformationsStep,
-        plans: plans,
-        services: services
-    }
-}
