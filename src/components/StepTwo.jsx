@@ -6,7 +6,7 @@ import pro from '../assets/images/icon-pro.svg'
 const StepTwo = () => {
   return (
     <>
-        <div>
+        <div className='steps__container'>  
             <h1>Select your plan</h1>
             <p>You have the option of monthly or yearly billing.</p>
             <div>
@@ -36,7 +36,7 @@ const StepTwo = () => {
                 <strong>Monthly</strong>
                 <strong>Yearly</strong>
             </div>
-            <div>
+            <div className='steps__actions'>
                 <button>
                     Go back
                 </button>
