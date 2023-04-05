@@ -78,6 +78,14 @@ footer {
     }
 }
 
+.error__div {
+    text-align: center;
+    margin: 100px 0;
+
+    button {
+        margin-top: 20px;
+    }
+}
 @media screen and (min-width:1201px) {
     body {
             height: 100vh;
