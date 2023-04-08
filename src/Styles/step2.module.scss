@@ -1,0 +1,84 @@
+.steps__container {
+    .plans__section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .plan__div {
+            width: 280px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            border: 1px solid $color-light-gray ;
+            padding: 15px 20px;
+            border-radius: 8px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+
+                strong {
+                    color: $color-marine-blue;
+                }
+
+                small {
+                    color: $color-cool-gray;
+                }
+            }
+        }
+
+
+    }
+
+    .plan__action {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .steps__container {
+        .plans__section {
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+
+            .plan__div {
+                width: 130px;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                gap: 40px;
+                border: 1px solid $color-light-gray ;
+                padding: 15px 20px;
+                border-radius: 8px;
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 5px;
+
+                    strong {
+                        color: $color-marine-blue;
+                    }
+
+                    small {
+                        color: $color-cool-gray;
+                    }
+                }
+            }
+
+
+        }
+
+        .plan__action {
+            margin-top: 20px;
+        }
+    }
+
+}
