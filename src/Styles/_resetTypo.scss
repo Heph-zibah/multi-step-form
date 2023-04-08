@@ -38,6 +38,7 @@ a {
     position: relative;
     top: -90px;
     border-radius: 8px;
+    
     h1 {
         font-size: 35px;
     }
@@ -94,17 +95,18 @@ footer {
     .container {
         display: flex;
         background-color: white;
-        max-width:800px;
+        max-width: 900px;
         margin: 0 auto;
         border-radius: 10px;
+        height: 600px;
     }
         .steps__container {
             background-color: white;
-            padding: 20px;
+            padding: 30px 50px;
             margin: 0;
             position:static;
             border-radius: none;
-    
+            
             h1 {
                 font-size: 35px;
             }
