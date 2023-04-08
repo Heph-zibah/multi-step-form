@@ -25,7 +25,7 @@ const StepOne = () => {
                 <label htmlFor="phoneNumber">Phone Number</label>
                 <input type="text" id='phoneNumber' name='phoneNumber' placeholder='e.g. +1 234 567 890' value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)}/>
         </form>
-        <div className='steps__actions'>
+        <div className='steps__actions step1'>
           <button  className='btn__goBack' style={{visibility:'hidden'}}> Go back</button>
           <button className='btn__next' onClick={handleSubmit}>Next Step</button>
         </div>  
